@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-navbar {
+    font-size: 100%;
+    margin: 0 15px;
+}
+
+.navbar-color {
+    min-height: 10vh;
+    text-decoration: underline;
+    background-color: #FC6D05;
+
+}
+
+.logos-nav {
+    margin: 2vh;
+    height: 12vh
+}
+
+.bg-body-color {
+    font-size: 140%;
+    color: black;
+}
+
+.texto-conocenos {
+    height: 100%;
+    font-size: 150%;
+    border-bottom: 3px solid orange;
+    border-right: 3px solid orange;
+}
+
+.dona-mp {
+    height: 13vh;
+    margin-right: 2px;
+}
+
+.como-solicito {
+    margin: 5px;
+    border-top: 3px solid orange;
+    border-left: 3px solid orange;
+
+}
+
+.desp-solicito {
+    border-top: 3px solid orange;
+
+}
+
+#solicitaranteojos {
+    border-top: 3px solid orange;
+}
+
+.carrusel-testimonios {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 70vh;
+}
+
+.colorflecha {
+    background-color: #FC6D05;
+}
+
+#donaranteojos {
+    font-size: 10vh;
+}
+
+.parrafo-comodonar {
+    font-size: 120%;
+}
+
+.btn-color-cards {
+    color: #ffffff;
+    background-color: #FC6D05;
+    padding: 1vh;
+}
+
+.imagen-prem-men {
+    min-height: 20vh;
+}
+
+.donar-argentina {
+    font-size: 120%;
+}
+.filiales-cuadro{
+    border-top: 3px solid orange;
+    border-left: 3px solid orange;
+}
+.color-footer {
+    background-color: #FC6D05;
+    min-height: 25vh;
+}
+
+.donar-argentina-int {
+    font-size: 80%;
+}
+
+.como-solicito-texto {
+    font-size: 120%;
+}
+
+.colecta {
+    border-top: 3px solid orange;
+    border-right: 3px solid orange;
+}
+
+.hacer-colecta-texto {
+    font-size: 120%;
+}
+.card-premios{width: 15rem;}
+footer a {
+    color: black;
+    text-decoration: none;
+    font-size: 140%;
+    display: block;
+}
+.box-notas{
+    border-bottom:3px solid orange; ;
+}
+@media(max-width: 768px) {
+    .dona-mp {
+        height: 12vh;
+    }
+
+}
+
+@media(max-width: 380px ){
+    .mail-colecta{
+        font-size: 100%;
+    }
+}
+@media(max-width: 450px){
+    .card-premios{
+display: flex;
+justify-content: center;
+        width: 18rem;
+    }
+}
